@@ -1,0 +1,225 @@
+.moonsec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: 0px auto;
+	border: 1px solid #000;
+	position: relative;
+}
+.lead{
+width: 50%;
+}
+
+.moonsun{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	font-size: 30px;
+	cursor: pointer;
+	padding: 20px;
+}
+.colorchange{
+background-color: #000;
+
+}
+.fontcolor{
+color: yellow;
+}
+
+.starsec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+	margin: 20px auto;
+	position: relative;
+	background-color: #023752;
+	padding: 40px 20px;
+}
+
+
+.accordion {
+	width: 100%;
+	margin: 10px auto;
+	color: black;
+	background-color: white;
+	padding: 10px 10px;
+  }
+
+
+  .container h4{
+	background-color: #dff5ce;
+	padding: 20px;
+	border: 1px solid #dff5ce;
+	border-radius: 12px;
+	margin: 10px auto;
+  }
+
+  .accordion .add{
+	position: relative;
+  }
+
+  .accordion .add::before {
+	content: '🢓';
+	color: black;
+	position: absolute;
+	top: 30%;
+	right: 20px;
+	font-size: 40px;
+
+	cursor: pointer;
+  }
+
+  .accordion .content {
+	position: relative;
+	height: 0;
+	font-size: 20px;
+color: #000;	
+text-align: justify;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.5s;
+  }
+
+.container.active .content {
+	height: 150px;
+  }
+    
+.container.active .add::before {
+	content: '-';
+	font-size: 40px;
+	top: 10%;
+	right: 20px;
+  }
+
+  .mobilesec{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+	width: 80%;
+	margin: 0px auto;
+	background-color: #c72724;
+	border: 1px solid #c72724;
+	position: relative;
+	padding: 100px 50px 150px 50px;
+	position: relative;
+}
+#colorDiv{
+	position: absolute;
+	text-align: center;
+	bottom:0px;
+
+}
+
+
+
+
+
+
+ 
+  
+
+@media (max-width: 768px)and (min-width: 200px) {
+	.moonsec{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		flex-wrap: wrap;
+		width: 100%!important;
+		margin: 0px auto;
+		border: 1px solid #000;
+		position: relative;
+		padding: 0px 0px!important;
+	}
+	.starsec{
+width: 100%;
+	}
+
+	.lead {
+		width: 80%!important;
+	}
+	.moonsun{
+		position: absolute;
+		top: -20px;
+		left: 2px;
+		font-size: 30px;
+		cursor: pointer;
+		padding: 20px;
+	}
+	.display-4 {
+		 font-size:2rem!important; 
+		font-weight: 300;
+		line-height: 1.2;
+	}
+
+	.mobilesec {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		 width: 100%!important; 
+		margin: 0px auto;
+		background-color: #c72724;
+		border: 1px solid #c72724;
+		position: relative;
+		padding: 100px 50px 150px 50px;
+		position: relative;
+	}
+	.m1{
+width: 60px;
+	}
+	.m2{
+		width: 70px;
+	}
+	.m3{
+		width: 100px;
+	}
+	.m4{
+		width: 70px;
+	}
+	.m5{
+		width: 120px;
+	}
+	#colorDiv {
+	
+		bottom: 10px;
+		
+	}
+	.mobilesec p{
+		width:100%!important;
+	}
+	.mobilesec h1{
+font-size: 30px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.m1{
+		width: 60px;
+			}
+			.m2{
+				width: 70px;
+			}
+			.m3{
+				width: 100px;
+			}
+			.m4{
+				width: 70px;
+			}
+			.m5{
+				width: 120px;
+			}
+			#colorDiv {
+			
+				bottom: 10px;
+				
+			}
+}

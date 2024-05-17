@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
   images.forEach(function(image) {
       image.addEventListener('click', function() {
           var color = this.getAttribute('data-color');
+                  document.getElementById('main-image').src=this.src
+
           changeColor(color);
       });
   });
